@@ -1,0 +1,150 @@
+#fullpage {
+    height: 2000px;
+    width: 1500px;
+    border: 2px solid transparent;
+    background-image: url(https://wallpapercave.com/wp/wp6903417.jpg);
+}
+
+header {
+    height: 120px;
+    border: 2px solid transparent;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #00ADB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#peakpx {
+    height: 40px;
+    width: 100px;
+    font-size: 30px;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    right: 5px;
+    border-radius: 3px;
+}
+
+#search {
+    height: 35px;
+    width: 1340px;
+    margin-left: 5px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+}
+
+#icons {
+    height: 35px;
+    width: 140px;
+    border: 3px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 50px;
+    left: 1330px;
+}
+
+#herobar {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    bottom: 40px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    background-image: url(https://wallpapercave.com/wp/wp6903417.jpg);
+}
+
+#cantenar {
+    height: 1800px;
+    width: 1330px;
+    background-image: url(https://wallpapercave.com/wp/wp6903417.jpg);
+    border: 2px solid transparent;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.columns {
+    position: relative;
+    top: 0%;
+    height: 98%;
+    width: 22%;
+    border: 2px solid transparent;
+}
+
+#column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img {
+    height: 23%;
+    width: 99%;
+    color: transparent;
+    border: 6px solid #00eaf6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 30px;
+    font-weight: bolder;
+    background-image: url(https://w0.peakpx.com/wallpaper/133/862/HD-wallpaper-lord-hanuman-lord-hanuman-ji-bajrangbali-ji-hanuman-ji-meditation-hanuman-ji.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img:hover {
+    transition-duration: 0.30s;
+    transform: scale(1.05);
+    border: 4px solid #00ADB5;
+    color: rgba(255, 0, 0, 10);
+    font-weight: bolder;
+    color: white;
+    box-shadow: 9px 10px 15px #00ADB5, -9px 10px 15px #00ADB5;
+}
+
+footer {
+    height: 89px;
+    position: relative;
+    bottom: 0px;
+    background-image: url(https://wallpapercave.com/wp/wp6903417.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    height: 55px;
+    width: 55px;
+    font-size: 40px;
+    background-color: #00acb5d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#right {
+    height: 55px;
+    width: 55px;
+    font-size: 40px;
+    background-color: #00acb5d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
