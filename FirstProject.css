@@ -1,0 +1,310 @@
+* {
+  transition: all linear 0.9s ;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-color: black;
+  }
+
+#navbar {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border: 5px solid white;
+  border-radius: 10px;
+  text-decoration: transparent;
+}
+
+a {
+ text-decoration: none;
+}
+
+#bar1 {
+  color: red;
+  background-image: url("/CSS/R.png");
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+
+#bar2 {
+  height: 30px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid transparent;
+}
+#bar2:hover {
+  border: 4px solid red;
+  border-radius: 10px;
+}
+
+
+#bar3 {
+  height: 30px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid transparent;
+}
+#bar3:hover {
+  border: 4px solid red;
+  border-radius: 10px;
+}
+
+
+#bar4 {
+  height: 30px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid transparent;
+}
+#bar4:hover {
+  border: 4px solid red;
+  border-radius: 10px;
+}
+
+
+#bar5 {
+  height: 30px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid transparent;
+}
+#bar5:hover {
+  border: 4px solid red;
+  border-radius: 10px;
+}
+
+
+#bar6 {
+  height: 30px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid transparent;
+}
+#bar6:hover {
+  border: 4px solid red;
+  border-radius: 10px;
+}
+
+
+#bar7 {
+  height: 30px;
+  width: 70px;;;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid red;
+}
+#bar7:hover {
+  background-color: transparent;
+  color: red;
+}
+
+
+.shortInfo {
+  color: red;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+  display: flex;
+}
+
+.heroheading {
+  width: 700px;
+  font-size: 80px;
+  display: inline-block;
+  position: relative;
+  bottom: 100px;
+}
+
+#img {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 900px;
+  width: 900px;
+  position: absolute;
+  left: 650px;
+  top: 0px;
+  z-index: -1;
+}
+
+#mdn {
+  position: relative;
+  top: 30px;
+  height: 520px;
+  background-color: transparent;
+}
+
+.subheading {
+  height: 100px;
+  width: 650px;
+  color: #614747;
+  position: absolute;
+  top: 320px;
+}
+
+img {
+  color: red;
+  background-image: url("/CSS/R.png");
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  border: 4px solid red;
+  border-radius: 50%;
+  margin: -5px;
+  position: relative;
+  bottom: 70px;
+}
+
+#use {
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  bottom: 75px;
+  left: 5px;
+  z-index: 2;
+}
+
+.button-89 {
+  position: relative;
+  left: 80px;
+  top: 20px;
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #ff0000;
+}
+
+.bn5 {
+    height: 50px;
+    width: 250px;
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    font-family: fantasy;
+    color: rgb(255, 0, 0);
+    background: #111;
+    cursor: pointer;
+    position: relative;                                          
+    z-index: 1;
+    border-radius: 10px;
+    position: absolute;
+    top: 620px;
+    left: 20px;
+  }
+
+  .bn5:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowingbn5 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowingbn5 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .bn5:active {
+    color: #000;
+  }
+  
+  .bn5:active:after {
+    background: transparent;
+  }
+  
+  .bn5:hover:before {
+    opacity: 1;
+  }
+  
+  .bn5:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
