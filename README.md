@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Apurba biswas
-- 👀 I’m interested in your projects.
+- 👀 I’m interested on your projects.
 - 🌱 I’m currently Working ...
 - and a cs student also..
 - 
